@@ -5,6 +5,9 @@ import './App.css'
 import YouTubeSearchApp from './test/YoutubeSearchApp'
 import YouTubeSearchMinimal from './test/YoutubeSearchMinimal'
 import ReactPlayerTest from './test/ReactPlayerTest'
+import QuietYouTubePlayer from './test/QuietYoutubePlayer'
+import ClickToPlayYouTube from './test/ClickToPlayYouTube'
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -14,6 +17,9 @@ function App() {
  
   <YouTubeSearchMinimal />
   <ReactPlayerTest />
+  <QuietYouTubePlayer/>
+  <ClickToPlayYouTube />
+
   </>
     ;
   
