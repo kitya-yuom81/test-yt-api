@@ -3,7 +3,8 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import YouTubeSearchApp from './test/YoutubeSearchApp.jsx'
-
+import YouTubeSearchMinimal from './test/YoutubeSearchMinimal.jsx'
+import ReactPlayerTest from './test/ReactPlayerTest.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* Your main app */}
@@ -11,5 +12,7 @@ createRoot(document.getElementById('root')).render(
 
     {/* YouTube search app */}
     <YouTubeSearchApp />
+    <YouTubeSearchMinimal />
+    <ReactPlayerTest />
   </StrictMode>,
 )
